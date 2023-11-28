@@ -60,3 +60,121 @@ Sıralı dizi: [2, 6, 16, 18, 22, 27]
 **Big-O Gösterimi:** O(n log n)
 
 
+## Proje 3:
+**Binary Search Tree Oluşturma Aşamaları:**
+
+1. **Başlangıç Durumu:**
+   - İlk eleman, root (kök) olarak belirlenir: root 7'dir.
+
+2. **5 Ekleniyor:**
+   - 5, 7'nin soluna eklenir: root'un solunda 5 bulunur.
+
+        ```
+        7
+       /
+      5
+        ```
+
+3. **1 Ekleniyor:**
+   - 1, 5'in soluna eklenir.
+
+        ```
+        7
+       /
+      5
+     /
+    1
+        ```
+
+4. **8 Ekleniyor:**
+   - 8, 7'nin sağına eklenir.
+
+        ```
+        7
+       / \
+      5   8
+     /
+    1
+        ```
+
+5. **3 Ekleniyor:**
+   - 3, 5'in sağına eklenir.
+
+        ```
+        7
+       / \
+      5   8
+     / \
+    1   3
+        ```
+
+6. **6 Ekleniyor:**
+   - 6, 5'in sağına eklenir.
+
+        ```
+        7
+       / \
+      5   8
+     / \
+    1   3
+       /
+      6
+        ```
+
+7. **0 Ekleniyor:**
+   - 0, 1'in soluna eklenir.
+
+        ```
+        7
+       / \
+      5   8
+     / \
+    1   3
+   / \
+  0   6
+        ```
+
+8. **9 Ekleniyor:**
+   - 9, 8'in sağına eklenir.
+
+        ```
+        7
+       / \
+      5   8
+     / \   \
+    1   3   9
+   / \
+  0   6
+        ```
+
+9. **4 Ekleniyor:**
+   - 4, 3'ün sağına eklenir.
+
+        ```
+        7
+       / \
+      5   8
+     / \   \
+    1   3   9
+   / \   \
+  0   6   4
+        ```
+
+10. **2 Ekleniyor:**
+   - 2, 1'in sağına eklenir.
+
+        ```
+        7
+       / \
+      5   8
+     / \   \
+    1   3   9
+   / \   \
+  0   6   4
+       /
+      2
+        ```
+
+
+
+
