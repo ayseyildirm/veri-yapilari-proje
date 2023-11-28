@@ -59,3 +59,4 @@ Sıralı dizi: [2, 6, 16, 18, 22, 27]
 
 **Big-O Gösterimi:** O(n log n)
 
+
